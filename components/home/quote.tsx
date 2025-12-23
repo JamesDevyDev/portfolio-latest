@@ -82,7 +82,7 @@ const QuoteSection = () => {
       scrollTrigger: {
         trigger: targetSection.current,
         start: "top top",
-        end: "bottom top",
+        end: "bottom+=500 top",
         scrub: 1,
         pin: true,
         onToggle: (self) => setWillChange(self.isActive),
@@ -103,24 +103,22 @@ const QuoteSection = () => {
 
   return (
     <>
-
       {/* Quote Section */}
-      <section 
-        className="h-screen w-full relative select-none bg-slate-800" 
+      <section
+        className="h-screen w-full relative select-none bg-slate-800"
         ref={targetSection}
       >
         <div className="h-full flex items-center justify-center px-4">
-          <h1 
+          <h1
             ref={quoteRef}
-            className={`font-medium text-4xl md:text-6xl text-center max-w-5xl ${
-              willChange ? "will-change-transform" : ""
-            }`}
+            className={`font-medium text-4xl md:text-6xl text-center max-w-5xl ${willChange ? "will-change-transform" : ""
+              }`}
           >
             I'm passionate about building{" "}
-            <span 
+            <span
               className="gradient-text font-bold bg-clip-text text-transparent"
               style={{
-                backgroundImage: "linear-gradient(to right, #60a5fa 0%, #3b82f6 50%, #2563eb 100%)",
+                backgroundImage: "linear-gradient(90deg, #E43D12 0%, #E43D12 50%, #ffffff 50%, #ffffff 100%)",
                 backgroundSize: "200% 100%",
                 backgroundPosition: "100% 0%",
               }}
