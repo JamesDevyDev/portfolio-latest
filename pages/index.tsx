@@ -94,6 +94,9 @@ export default function Home() {
           {/* Human touch */}
           <QuoteSection />
 
+          <div className='w-[100vw] h-[1000px]'>
+
+          </div>
           {/* Call to action */}
           <Transition text="" bold="Please Collaborate with me :)" slideText="Collaborate Collaborate Collaborate Collaborate Collaborate Collaborate" />
 
