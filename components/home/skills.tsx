@@ -109,7 +109,7 @@ const SkillsSection = () => {
           <div className="flex flex-wrap mt-10">
             <div className="mr-6 mb-6">
               {renderSkillColumn(
-                "User Interface, User Experience Design",
+                "User Interface",
                 SKILLS.userInterface
               )}
             </div>

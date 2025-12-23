@@ -67,7 +67,7 @@ const Transition = ({ text, bold, slideText }: { text: string, bold: string, sli
             trigger: target.current,
             start: "top bottom",
             end: "bottom top",
-            scrub: 1,
+            scrub: 0.5,
             animation: tl,
         })
     }

@@ -160,7 +160,7 @@ export const SKILLS = {
   ],
   userInterface: ["figma", "canva"],
   other: ["git", "vercel", "render"],
-  backend: ["nodejs", "mongodb"]
+  backend: ["next","nodejs", "mongodb"]
 };
 
 export enum Branch {
