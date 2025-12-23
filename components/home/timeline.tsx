@@ -15,7 +15,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { IDesktop, isSmallScreen } from "pages";
 
 const svgColor = "#9CA3AF";
-const animColor = "#FCD34D";
+const animColor = "#E43D12";
 const separation = 450;
 const strokeWidth = 2;
 const leftBranchX = 13;
