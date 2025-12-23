@@ -17,14 +17,14 @@ const QuoteSection = () => {
       .from(quoteRef.current, { opacity: 0, duration: 2 })
       .to(quoteRef.current.querySelector(".text-strong"), {
         backgroundPositionX: "100%",
-        duration: 1,
+        duration: 2,
       });
 
     return ScrollTrigger.create({
       trigger: targetSection.current,
       start: "center bottom",
       end: "center center",
-      scrub: 0,
+      scrub: 0.5,
       animation: timeline,
       onToggle: (self) => setwillChange(self.isActive),
     });
@@ -42,7 +42,7 @@ const QuoteSection = () => {
         ref={quoteRef}
         className={`font-medium text-4xl md:text-5xl text-center ${willChange ? "will-change-opacity" : ""}`}
       >
-        I’m passionate about building <span className="text-strong font-bold">scalable full-stack apps</span> and writing clean, 
+        I’m passionate about building <span className="text-strong font-bold">scalable full stack apps</span> and writing clean, 
         efficient code to solve real problems.
       </h1>
 
