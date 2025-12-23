@@ -114,7 +114,7 @@ const QuoteSection = () => {
             className={`font-medium text-4xl md:text-6xl text-center max-w-5xl ${willChange ? "will-change-transform" : ""
               }`}
           >
-            I'm passionate about building{" "}
+            I&apos;m passionate about building{" "}
             <span
               className="gradient-text font-bold bg-clip-text text-transparent"
               style={{
