@@ -76,21 +76,21 @@ export default function Home() {
           {renderBackdrop()}
           <HeroSection />
 
-          <Transition text="" bold="Full Stack Developer" slideText="Full Stack Developer Full Stack Developer" />
+          <Transition text="" bold="Full Stack Developer" slideText="Full Stack Developer Full Stack Developer Full Stack Developer Full Stack Developer" />
 
           <AboutSection />
 
-          <Transition text="" bold="My Technologies" slideText="Technologies Technologies Technologies Technologies" />
+          <Transition text="" bold="My Technologies" slideText="Technologies Technologies Technologies Technologies Technologies Technologies Technologies Technologies" />
 
           <SkillsSection />
 
 
-          <Transition text="" bold="My Works" slideText="Works Works Works Works" />
+          <Transition text="" bold="My Works" slideText="Works Works Works Works Works Works Works Works Works Works Works Works" />
 
           <ProjectsSection isDesktop={isDesktop} />
 
 
-          <Transition text="" bold="My Journey" slideText="Timeline Timeline Timeline Timeline" />
+          <Transition text="" bold="My Journey" slideText="Timeline Timeline Timeline Timeline Timeline Timeline Timeline Timeline" />
 
           <TimelineSection isDesktop={isDesktop} />
 
@@ -98,7 +98,7 @@ export default function Home() {
           <QuoteSection />
 
           {/* Call to action */}
-          <Transition text="Please" bold="Collaborate with me :)" slideText="Collaborate with me! Collaborate with me!" />
+          <Transition text="" bold="Please Collaborate with me :)" slideText="Collaborate Collaborate Collaborate Collaborate Collaborate Collaborate" />
 
           <Footer />
         </main>

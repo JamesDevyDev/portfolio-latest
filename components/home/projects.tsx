@@ -151,11 +151,11 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
   return (
     <section
       ref={targetSectionRef}
-      className={`${isDesktop && "min-h-screen"} ${PROJECT_STYLES.SECTION}`}
+      className={`${isDesktop && "min-h-screen "} ${PROJECT_STYLES.SECTION}`}
       id={projectsSectionRef}
     >
       {renderSectionTitle()}
-      <div className={PROJECT_STYLES.PROJECTS_WRAPPER}>
+      <div className={PROJECT_STYLES.PROJECTS_WRAPPER }>
         {renderProjectTiles()}
       </div>
     </section>

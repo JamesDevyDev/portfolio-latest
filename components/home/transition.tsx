@@ -9,7 +9,7 @@ const STYLE = {
     SLIDING_TEXT: "opacity-20 text-5xl md:text-7xl font-bold whitespace-nowrap text-[#E43D12]",
     SECTION:
         "w-full relative select-none py-48 flex flex-col gap-4 overflow-hidden",
-    TITLE: "font-medium text-4xl md:text-5xl text-center text-[#E43D12]",
+    TITLE: "font-medium text-4xl md:text-5xl text-center text-black text-[#E43D12]",
 }
 
 const Transition = ({ text, bold, slideText }: { text: string, bold: string, slideText: string }) => {
@@ -28,7 +28,7 @@ const Transition = ({ text, bold, slideText }: { text: string, bold: string, sli
             quoteRef.current.querySelector(".text-strong"),
             {
                 backgroundPositionX: "100%",
-                duration: 1,
+                duration: 2,
             }
         )
 
@@ -67,7 +67,7 @@ const Transition = ({ text, bold, slideText }: { text: string, bold: string, sli
             trigger: target.current,
             start: "top bottom",
             end: "bottom top",
-            scrub: 0,
+            scrub: 1,
             animation: tl,
         })
     }
