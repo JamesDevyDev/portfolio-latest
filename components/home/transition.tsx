@@ -65,10 +65,14 @@ const Transition = ({ text, bold, slideText }: { text: string, bold: string, sli
 
         return ScrollTrigger.create({
             trigger: target.current,
-            start: "top bottom",
+            start: "top-=500 bottom",
             end: "bottom top",
-            scrub: 0.5,
+            scrub: 5,
             animation: tl,
+            // markers: {
+            //     startColor: 'red',
+            //     endColor: 'green'
+            // }
         })
     }
 
